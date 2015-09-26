@@ -1,0 +1,130 @@
+/* Copyright Statement:
+ *
+ * This software/firmware and related documentation ("MediaTek Software") are
+ * protected under relevant copyright laws. The information contained herein
+ * is confidential and proprietary to MediaTek Inc. and/or its licensors.
+ * Without the prior written permission of MediaTek inc. and/or its licensors,
+ * any reproduction, modification, use or disclosure of MediaTek Software,
+ * and information contained herein, in whole or in part, shall be strictly prohibited.
+ */
+/* MediaTek Inc. (C) 2010. All rights reserved.
+ *
+ * BY OPENING THIS FILE, RECEIVER HEREBY UNEQUIVOCALLY ACKNOWLEDGES AND AGREES
+ * THAT THE SOFTWARE/FIRMWARE AND ITS DOCUMENTATIONS ("MEDIATEK SOFTWARE")
+ * RECEIVED FROM MEDIATEK AND/OR ITS REPRESENTATIVES ARE PROVIDED TO RECEIVER ON
+ * AN "AS-IS" BASIS ONLY. MEDIATEK EXPRESSLY DISCLAIMS ANY AND ALL WARRANTIES,
+ * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF
+ * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NONINFRINGEMENT.
+ * NEITHER DOES MEDIATEK PROVIDE ANY WARRANTY WHATSOEVER WITH RESPECT TO THE
+ * SOFTWARE OF ANY THIRD PARTY WHICH MAY BE USED BY, INCORPORATED IN, OR
+ * SUPPLIED WITH THE MEDIATEK SOFTWARE, AND RECEIVER AGREES TO LOOK ONLY TO SUCH
+ * THIRD PARTY FOR ANY WARRANTY CLAIM RELATING THERETO. RECEIVER EXPRESSLY ACKNOWLEDGES
+ * THAT IT IS RECEIVER'S SOLE RESPONSIBILITY TO OBTAIN FROM ANY THIRD PARTY ALL PROPER LICENSES
+ * CONTAINED IN MEDIATEK SOFTWARE. MEDIATEK SHALL ALSO NOT BE RESPONSIBLE FOR ANY MEDIATEK
+ * SOFTWARE RELEASES MADE TO RECEIVER'S SPECIFICATION OR TO CONFORM TO A PARTICULAR
+ * STANDARD OR OPEN FORUM. RECEIVER'S SOLE AND EXCLUSIVE REMEDY AND MEDIATEK'S ENTIRE AND
+ * CUMULATIVE LIABILITY WITH RESPECT TO THE MEDIATEK SOFTWARE RELEASED HEREUNDER WILL BE,
+ * AT MEDIATEK'S OPTION, TO REVISE OR REPLACE THE MEDIATEK SOFTWARE AT ISSUE,
+ * OR REFUND ANY SOFTWARE LICENSE FEES OR SERVICE CHARGE PAID BY RECEIVER TO
+ * MEDIATEK FOR SUCH MEDIATEK SOFTWARE AT ISSUE.
+ *
+ * The following software/firmware and/or related documentation ("MediaTek Software")
+ * have been modified by MediaTek Inc. All revisions are subject to any receiver's
+ * applicable license agreements with MediaTek Inc.
+ */
+
+/*****************************************************************************
+*  Copyright Statement:
+*  --------------------
+*  This software is protected by Copyright and the information contained
+*  herein is confidential. The software may not be copied and the information
+*  contained herein may not be used or disclosed except with the written
+*  permission of MediaTek Inc. (C) 2008
+*
+*  BY OPENING THIS FILE, BUYER HEREBY UNEQUIVOCALLY ACKNOWLEDGES AND AGREES
+*  THAT THE SOFTWARE/FIRMWARE AND ITS DOCUMENTATIONS ("MEDIATEK SOFTWARE")
+*  RECEIVED FROM MEDIATEK AND/OR ITS REPRESENTATIVES ARE PROVIDED TO BUYER ON
+*  AN "AS-IS" BASIS ONLY. MEDIATEK EXPRESSLY DISCLAIMS ANY AND ALL WARRANTIES,
+*  EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF
+*  MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NONINFRINGEMENT.
+*  NEITHER DOES MEDIATEK PROVIDE ANY WARRANTY WHATSOEVER WITH RESPECT TO THE
+*  SOFTWARE OF ANY THIRD PARTY WHICH MAY BE USED BY, INCORPORATED IN, OR
+*  SUPPLIED WITH THE MEDIATEK SOFTWARE, AND BUYER AGREES TO LOOK ONLY TO SUCH
+*  THIRD PARTY FOR ANY WARRANTY CLAIM RELATING THERETO. MEDIATEK SHALL ALSO
+*  NOT BE RESPONSIBLE FOR ANY MEDIATEK SOFTWARE RELEASES MADE TO BUYER'S
+*  SPECIFICATION OR TO CONFORM TO A PARTICULAR STANDARD OR OPEN FORUM.
+*
+*  BUYER'S SOLE AND EXCLUSIVE REMEDY AND MEDIATEK'S ENTIRE AND CUMULATIVE
+*  LIABILITY WITH RESPECT TO THE MEDIATEK SOFTWARE RELEASED HEREUNDER WILL BE,
+*  AT MEDIATEK'S OPTION, TO REVISE OR REPLACE THE MEDIATEK SOFTWARE AT ISSUE,
+*  OR REFUND ANY SOFTWARE LICENSE FEES OR SERVICE CHARGE PAID BY BUYER TO
+*  MEDIATEK FOR SUCH MEDIATEK SOFTWARE AT ISSUE.
+*
+*  THE TRANSACTION CONTEMPLATED HEREUNDER SHALL BE CONSTRUED IN ACCORDANCE
+*  WITH THE LAWS OF THE STATE OF CALIFORNIA, USA, EXCLUDING ITS CONFLICT OF
+*  LAWS PRINCIPLES.  ANY DISPUTES, CONTROVERSIES OR CLAIMS ARISING THEREOF AND
+*  RELATED THERETO SHALL BE SETTLED BY ARBITRATION IN SAN FRANCISCO, CA, UNDER
+*  THE RULES OF THE INTERNATIONAL CHAMBER OF COMMERCE (ICC).
+*
+*****************************************************************************/
+
+/*******************************************************************************
+ *
+ * Filename:
+ * ---------
+ *
+ *
+ * Project:
+ * --------
+ *   ALPS
+ *
+ * Description:
+ * ------------
+ *
+ * Author:
+ * -------
+ * Charlie Lu
+ *
+ *------------------------------------------------------------------------------
+ * $Revision:$ 1.0.0
+ * $Modtime:$
+ * $Log:$
+ *
+ *
+ *
+ *******************************************************************************/
+#ifndef DMNR_PAR_SPEECH_COEFF_DEFAULT_H
+#define DMNR_PAR_SPEECH_COEFF_DEFAULT_H
+
+#define DEFAULT_SPEECH_DUAL_MIC_ABF_PARA \
+ 15462,     0, 15926, -1174, 15180 ,\
+ -3647, 18248, -5429, 18845,  1908 ,\
+  9692,  -860,  5961, -7228,  4122 ,\
+-14637,     2,     3,     1,   106 ,\
+   106,  4242,     0,     0,     0 ,\
+     0,   106,  6200,  1010,  1416 ,\
+  3122,  5272,  8015,  6805,  8545 ,\
+  5886,     0,     0,     4, 26299 ,\
+      68, 0, 0, 0
+
+#define DEFAULT_SPEECH_DUAL_MIC_ABFWB_PARA \
+ 17090,     0, 16864,  1090, 17059,  1230, 20997,  4154, 18610, 15314 ,\
+  7115, 10957,  8859,  3206, 15776,   340, 20577,  2441, 22080,  3077 ,\
+ 21593, -4329, 31375, -7306, 20806, -9660,  7439,-15374, -3431,-12280 ,\
+ -1044,  -425,     5,     3,     1,   507,   507,  4692,     0,     0 ,\
+     0,     0,     0,     0,     0,     0,     0,     0,     0,     0 ,\
+   507,  6200,  1591,  1443,  3890,  7033,  9794,  8428,  8791,  6696 ,\
+  9928, 12529, 18977, 30737, 32767, 15581, 10789, 17053,     1,     0 ,\
+     4, 26299,    68,     0,     0,     0 
+
+#define	DEFAULT_SPEECH_DUAL_MIC_ABFWB_PARA_VOIP \
+ 20743,     0, 20699,   365, 20344,  -503, 23726,   399, 25433,  9158 ,\
+ 11469, 10456, 10255,   811, 16770, -3995, 19695,  -949, 17648, -3172 ,\
+ 22485,-10398, 32145, -6911, 29877, -9342, 22731,-11297, -3288, -6860 ,\
+    90,   721,     5,     3,     1,    93,    93,  4614,     0,     0 ,\
+     0,     0,     0,     0,     0,     0,     0,     0,     0,     0 ,\
+    93,  6200,  1448,  1415,  2666,  4868,  7265,  8189,  7098,  4922 ,\
+  6660,  7732, 13955, 19121, 24266, 16492, 17693, 18820,     1,     0 ,\
+     4, 26299,    68,     0,     0,     0 
+
+#endif
